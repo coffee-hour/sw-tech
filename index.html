@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SW Computer Repairs and Custom Builds: local PC building, diagnostics, repair, deep cleaning, and hardware upgrades. Transparent pricing and bench-tested quality.">
+  <title>SW Computer Repairs and Custom Builds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="SW Computer Repairs and Custom Builds home">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">SW COMPUTER <span class="muted">REPAIRS AND CUSTOM BUILDS</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">MENU</button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-small">Request Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-logo" aria-hidden="true"></div>
+        <p class="eyebrow">// LOCAL PC BUILDS &amp; REPAIR</p>
+        <h1>SW Computer Repairs and Custom Builds</h1>
+        <p class="lead">Custom gaming, workstation, and streaming rigs built and bench-tested by hand. Fast diagnostics, deep cleaning, and upgrades with transparent pricing.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Submit a Work Order</a>
+          <a href="#services" class="btn btn-outline">View Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">// SERVICES</p>
+        <h2>What We Do</h2>
+        <p class="section-sub">Flat starting prices. Final quote confirmed before any work begins.</p>
+        <div class="grid services-grid">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3>Custom Builds</h3>
+            <p>Component consultation, build planning, assembly, cable management, OS install, and full stress testing.</p>
+            <ul class="price-list">
+              <li><span>Standard build</span><span>$150</span></li>
+              <li><span>Premium / custom loop</span><span>$250</span></li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3>Diagnostics &amp; Repairs</h3>
+            <p>Hardware fault isolation, component-level testing, power and thermal issues, and data recovery referrals.</p>
+            <ul class="price-list">
+              <li><span>Diagnostic fee (waived on repair)</span><span>$40</span></li>
+              <li><span>Software / OS repair</span><span>$60</span></li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3>Deep Clean &amp; Repaste</h3>
+            <p>Full disassembly, dust removal, fan and filter cleaning, CPU and GPU repaste, and thermal verification.</p>
+            <ul class="price-list">
+              <li><span>Deep clean</span><span>$80</span></li>
+              <li><span>Clean + repaste</span><span>$110</span></li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card-index">04</span>
+            <h3>Hardware Upgrades</h3>
+            <p>Installation and configuration of RAM, storage, GPUs, CPU swaps, and PSU or cooling upgrades.</p>
+            <ul class="price-list">
+              <li><span>Install and configure</span><span>$40</span></li>
+              <li><span>Upgrade with full retest</span><span>$70</span></li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine-print">Parts are sold separately at cost plus transparent markup, or supplied by you. All prices are starting points and may vary by scope.</p>
+        <p class="fine-print">Turnaround: most services take between 1 and 7 days from drop-off to completion. Timing may be longer depending on parts availability or diagnostic complexity, and we will tell you up front if that applies to your system.</p>
+      </div>
+    </section>
+
+    <section id="why" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">// WHY CHOOSE US</p>
+        <h2>Built Different</h2>
+        <div class="grid why-grid">
+          <div class="feature">
+            <h3>Fast Local Turnaround</h3>
+            <p>Most services are completed within 1 to 7 days of drop-off. Longer timelines are possible when parts must be ordered or a diagnosis is complex, and we keep you updated throughout.</p>
+          </div>
+          <div class="feature">
+            <h3>Transparent Pricing</h3>
+            <p>You approve a written quote before any work starts. No surprise fees, no hidden labor charges.</p>
+          </div>
+          <div class="feature">
+            <h3>Quality Bench Testing</h3>
+            <p>Every system is stress tested, benchmarked, and temperature checked before it leaves the shop.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">// WORK ORDER</p>
+          <h2>Request Service</h2>
+          <p class="section-sub">Describe your system and issue. We will reply with a quote and drop-off details.</p>
+        </div>
+        <form class="work-order" action="https://api.web3forms.com/submit" method="POST" id="work-order-form">
+          <input type="hidden" name="access_key" value="c1ab5c4b-84a6-4b3c-b1ad-e4509ed47296">
+          <input type="hidden" name="subject" value="New Work Order Request - SW Computer Repairs and Custom Builds">
+          <input type="hidden" name="from_name" value="SW Computer Repairs and Custom Builds Website">
+          <input type="checkbox" name="botcheck" class="hidden-field" tabindex="-1" autocomplete="off">
+
+          <div class="field">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="contact">Contact Info (email or phone) *</label>
+            <input type="text" id="contact" name="contact" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="service">Service Needed *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option>Custom Build</option>
+              <option>Diagnostics &amp; Repair</option>
+              <option>Deep Clean &amp; Repaste</option>
+              <option>Hardware Upgrade</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="details">PC Specs / Issue Description *</label>
+            <textarea id="details" name="details" rows="6" required placeholder="CPU, GPU, RAM, storage, PSU, OS, and what is going wrong."></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Submit Work Order</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">// FAQ</p>
+        <h2>Common Questions</h2>
+        <div class="faq">
+          <details>
+            <summary>How fast can you turn around a repair?</summary>
+            <p>Most services usually take between 1 and 7 days from drop-off to completion. Timing can be longer depending on parts availability or diagnostic complexity. We will let you know as soon as we identify a delay.</p>
+          </details>
+          <details>
+            <summary>Do you give quotes before starting work?</summary>
+            <p>Yes. We provide a written quote and only proceed once you approve it. The diagnostic fee is waived if you move forward with the repair.</p>
+          </details>
+          <details>
+            <summary>Can I supply my own parts for a build?</summary>
+            <p>Yes. We can assemble and test customer-supplied components. Labor pricing still applies.</p>
+          </details>
+          <details>
+            <summary>What does bench testing include?</summary>
+            <p>Stress testing under load, temperature and clock monitoring, memory validation, storage health checks, and a final run of your target software or games.</p>
+          </details>
+          <details>
+            <summary>Do you offer warranties on labor?</summary>
+            <p>Yes. All labor is covered for 30 days from pickup. Manufacturer warranties on parts remain with the manufacturer.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="brand-name">SW COMPUTER <span class="muted">REPAIRS AND CUSTOM BUILDS</span></span>
+      <span class="muted">&copy; <span id="year"></span> All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
