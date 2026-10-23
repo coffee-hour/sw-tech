@@ -1,0 +1,22 @@
+{
+  "name": "sw-tech preview",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "sw-tech preview",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postStartCommand": "nohup python3 -m http.server 8000 --bind 0.0.0.0 > /tmp/preview.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
